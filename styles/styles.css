@@ -1,0 +1,101 @@
+.nav-parent {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner-1 {
+    background-image: url('../images/banner1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.banner-2 {
+    background-image: url('../images/banner2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.banner-3 {
+    background-image: url('../images/banner3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.banner-4 {
+    background-image: url('../images/banner4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.text-center h1 {
+    padding-top: 250px;
+}
+
+.col-md-6-wedding {
+    padding-right: 40px;
+}
+
+.card-body p,
+li {
+    color: #848199;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.card-body li {
+    list-style: none;
+}
+
+.d-flex-wedding {
+    display: flex;
+}
+
+.wedding-plus {
+    background-color: #3F87F5;
+    color: #FFFFFF;
+}
+
+.footer-parent {
+    display: flex;
+    background-color: #0B0D17;
+    color: #D9DBE1;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.footer-description{
+    padding: 100px 150px;
+    font-size: 14px;
+}
+
+.footer-image{
+    padding: 50px 150px;
+    font-size: 16px;
+}
+
+.footer-image img {
+    display: block;
+    width: 135px;
+    height: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .d-flex-wedding {
+        flex-direction: column-reverse;
+    }
+    .footer-parent{
+        flex-direction: column;
+    }
+}
